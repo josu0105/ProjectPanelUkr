@@ -35,7 +35,7 @@
 
 body {
     font-family: var(--body-font);
-    background-color: var(--body-color);
+    background-color: #DDD;
     color: var(--text-color);
 }
 
@@ -61,6 +61,7 @@ img {
 .card__article {
     position: relative;
     overflow: hidden;
+    margin-bottom: 35px;
 }
 
 .card__img {
@@ -192,7 +193,7 @@ img {
 /* For large devices */
 @media screen and (min-width: 1120px) {
     .container {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .card__container {
